@@ -774,7 +774,7 @@ canvas{
 
 .drops {
   position:relative;
-  top:0;
+  top: 2.2rem;
   left:0;
   bottom:0;
   right:0;
@@ -812,10 +812,6 @@ canvas{
 }
 
 .drop1 {
-  /* width: 90px;
-  height: 16px;
-  bottom: 2px;
-  border-radius: 0; */
   width: 1.2rem;
   height: 1.6rem;
   border-radius:0% 100% 100% 100%;
