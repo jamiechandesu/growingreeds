@@ -1,5 +1,6 @@
 // projects
 
+const lotus = document.querySelectorAll(".sec4 img");
 const lotus1 = document.querySelector(".lotus1");
 const lotus1_expl = document.querySelector(".lotus1_expl");
 const lotus2 = document.querySelector(".lotus2");
@@ -68,10 +69,7 @@ function hover6() {
 }
 
 // art work
-const thumb1 = document.querySelector(".thumb1");
-const thumb2 = document.querySelector(".thumb2");
-const thumb3 = document.querySelector(".thumb3");
-const thumb4 = document.querySelector(".thumb4");
+const thumb = document.querySelectorAll(".sec5 img");
 const art = document.getElementById("art");
 const modal = document.querySelector(".modal");
 const modal_hidden = document.querySelector(".modal_hidden");
@@ -81,24 +79,26 @@ function modalOpen() {
   modal.classList.remove("modal_hidden");
 }
 
-thumb1.addEventListener("click", function () {
-  modalOpen();
-  art.src = "images/art1.png";
-});
+thumb.forEach(() => {
+  thumb[0].addEventListener("click", function () {
+    modalOpen();
+    art.src = "images/art1.png";
+  });
 
-thumb2.addEventListener("click", function () {
-  modalOpen();
-  art.src = "images/art2.png";
-});
+  thumb[1].addEventListener("click", function () {
+    modalOpen();
+    art.src = "images/art2.png";
+  });
 
-thumb3.addEventListener("click", function () {
-  modalOpen();
-  art.src = "images/art3.png";
-});
+  thumb[2].addEventListener("click", function () {
+    modalOpen();
+    art.src = "images/art3.png";
+  });
 
-thumb4.addEventListener("click", function () {
-  modalOpen();
-  art.src = "images/art4.png";
+  thumb[3].addEventListener("click", function () {
+    modalOpen();
+    art.src = "images/art4.png";
+  });
 });
 
 close_modal.addEventListener("click", (e) => {
