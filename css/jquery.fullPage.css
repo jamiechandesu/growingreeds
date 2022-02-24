@@ -134,7 +134,7 @@ html.fp-enabled,
 .fp-slidesNav ul li {
   display: block;
   width: 14px;
-  height: 13px;
+  height: 18px;
   margin: 7px;
   position: relative;
 }
@@ -155,10 +155,12 @@ html.fp-enabled,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
-  height: 12px;
-  width: 12px;
-  margin: -6px 0 0 -6px;
+  height: 18px;
+  width: 18px;
+  margin: -11px 0 0 -8px;
   border-radius: 100%;
+  border: 1px solid #fff;
+  background: transparent;
 }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -168,7 +170,7 @@ html.fp-enabled,
   height: 4px;
   width: 4px;
   border: 0;
-  background: #333;
+  background: #fff;
   left: 50%;
   top: 50%;
   margin: -2px 0 0 -2px;

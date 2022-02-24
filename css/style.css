@@ -85,7 +85,6 @@ footer {
   font-size: 8rem;
 } */
 
-
 .sec3 h3,
 .sec4 h3,
 .sec5 h3,
@@ -320,11 +319,11 @@ header .nav-list a {
 }
 
 @media (max-width: 1660px) {
-  .fp-tableCell{
+  .fp-tableCell {
     width: 90%;
   }
 
-  .sec2-text{
+  .sec2-text {
     padding: 5.5rem 8rem;
   }
 }
@@ -592,7 +591,7 @@ header .nav-list a {
   height: 70.5rem;
   margin: 0 auto;
   position: relative;
-  /* background: url("../images/water.png") center no-repeat; */ */
+  /* background: url("../images/water.png") center no-repeat; */
   /* background-size: contain; */
 }
 
@@ -603,16 +602,16 @@ header .nav-list a {
   transform: rotate(0.03deg);
 }
 
-.lotus{
+.lotus {
   text-align: center;
   width: max-content;
-  background: rgba( 255, 255, 255, 0.25 );
+  background: rgba(255, 255, 255, 0.25);
   color: #fff;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  box-shadow: 0 6px 20px -15px #000;   
-  border-width: 1px 1px 0 0; 
-  border-color: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 6px 20px -15px #000;
+  border-width: 1px 1px 0 0;
+  border-color: rgba(255, 255, 255, 0.25);
   border-style: solid;
   /* border: 1px solid rgba( 255, 255, 255, 0.25 );   */
   padding: 1.8rem;
@@ -622,9 +621,9 @@ header .nav-list a {
   transition: all 2s;
 }
 
-.lotus > img{
-  border-width: 2px 2px 0 0px; 
-  border-color: rgba( 255, 255, 255, 0.5 );
+.lotus > img {
+  border-width: 2px 2px 0 0px;
+  border-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
   border-radius: 1.2rem;
 }
@@ -653,7 +652,7 @@ header .nav-list a {
   z-index: 3;
 }
 
-.lotus1_expl p{
+.lotus1_expl p {
   margin-top: 0.5rem;
 }
 
@@ -675,12 +674,12 @@ header .nav-list a {
   left: 39rem;  
 } */
 
-#main-wrapper{
+#main-wrapper {
   width: 100vw;
   width: 100vh;
 }
 
-canvas{
+canvas {
   display: block;
   width: 100%;
 }
@@ -709,7 +708,7 @@ canvas{
   z-index: 3;
 }
 
-.lotus6_expl{
+.lotus6_expl {
   top: 58rem;
   left: 20rem;
   z-index: 3;
@@ -773,20 +772,20 @@ canvas{
 }
 
 .drops {
-  position:relative;
+  position: relative;
   top: 2.2rem;
-  left:0;
-  bottom:0;
-  right:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 1;
   opacity: 0;
-  animation: fade-in .1s linear .4s forwards;
+  animation: fade-in 0.1s linear 0.4s forwards;
 }
 
 .drop2 {
   width: 2.1rem;
   height: 2.1rem;
-  border-radius:0% 100% 100% 100%;
+  border-radius: 0% 100% 100% 100%;
   transform: rotate(45deg);
   position: absolute;
   left: 0rem;
@@ -794,13 +793,13 @@ canvas{
   bottom: 0;
   margin: auto;
   /* background-color: #10a7c1 */
-  background: rgba( 255, 255, 255, 0.25 );
+  background: rgba(255, 255, 255, 0.25);
 }
 
-.drop3{
+.drop3 {
   width: 1.6rem;
   height: 1.6rem;
-  border-radius:0% 100% 100% 100%;
+  border-radius: 0% 100% 100% 100%;
   transform: rotate(45deg);
   position: absolute;
   left: 0rem;
@@ -808,13 +807,13 @@ canvas{
   bottom: 0;
   margin: auto;
   /* background-color: #10a7c1 */
-  background: rgba( 255, 255, 255, 0.25 );
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .drop1 {
   width: 1.2rem;
   height: 1.6rem;
-  border-radius:0% 100% 100% 100%;
+  border-radius: 0% 100% 100% 100%;
   transform: rotate(45deg);
   position: absolute;
   left: -12rem;
@@ -822,16 +821,16 @@ canvas{
   bottom: 0;
   margin: auto;
   /* background-color: #10a7c1 */
-  background: rgba( 255, 255, 255, 0.25 );
-  animation: drop 1.5s .5s cubic-bezier(1,.19,.66,.12)  infinite;
+  background: rgba(255, 255, 255, 0.25);
+  animation: drop 1.5s 0.5s cubic-bezier(1, 0.19, 0.66, 0.12) infinite;
 }
 
 .drop2 {
-  animation: drop 1.5s cubic-bezier(1,.19,.66,.12) .3s infinite;
+  animation: drop 1.5s cubic-bezier(1, 0.19, 0.66, 0.12) 0.3s infinite;
 }
 
 .drop3 {
-  animation: drop 1.5s cubic-bezier(1,.19,.66,.12) 1.2s infinite;
+  animation: drop 1.5s cubic-bezier(1, 0.19, 0.66, 0.12) 1.2s infinite;
 }
 
 @keyframes fade-in {
@@ -848,17 +847,16 @@ canvas{
     bottom: 0px;
     opacity: 1;
   }
-  
+
   80% {
     opacity: 1;
   }
-  
+
   100% {
     opacity: 1;
     bottom: -200px;
   }
 }
-
 
 .frog1,
 .frog2,

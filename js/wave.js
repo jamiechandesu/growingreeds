@@ -63,7 +63,9 @@ class App {
         u_speed: { type: "f", value: 0 },
         u_texture: {
           type: "t",
-          value: new THREE.TextureLoader().load("images/water.png"),
+          value: new THREE.TextureLoader().load(
+            "https://i.imgur.com/cmTH0ZL.png"
+          ),
         },
         u_distortion: { type: "i", value: 1 },
       },
